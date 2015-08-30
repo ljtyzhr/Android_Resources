@@ -13,6 +13,8 @@ https://github.com/lguipeng/Notes
 高仿微信的源码
 https://github.com/motianhuo/wechat
 
+Google的RSS阅读器
+https://github.com/ljtyzhr/ym-info
 
 2、开源框架
 
