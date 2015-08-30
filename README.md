@@ -14,8 +14,11 @@ https://github.com/lguipeng/Notes
 https://github.com/motianhuo/wechat
 
 Google的RSS阅读器
-https://github.com/ljtyzhr/ym-info
-
+https://github.com/ljtyzhr/ym-info 
+<br>
+新浪微博
+https://github.com/qii/weiciyuan
+<br>
 2、开源框架
 
 2.1 图片加载
@@ -38,6 +41,9 @@ https://github.com/SinaMSRE/HTTPDNSLib
 开源的DLA框架
 https://github.com/kymjs/CJFrameForAndroid
 
+2.3 前端交互
+一个JS交互框架库
+https://github.com/cczw2010/sjsb
 
 3、UI与view
 
