@@ -22,6 +22,9 @@ https://github.com/ljtyzhr/ym-info
 facebook开源的图片加载框架
 https://github.com/facebook/fresco
 
+Volley请求框架
+https://github.com/smanikandan14/Volley-demo
+
 Volley的加强版
 https://github.com/DWorkS/VolleyPlus
 
@@ -31,6 +34,9 @@ https://github.com/Qihoo360/DroidPlugin
 
 新浪微博开源的网络检测
 https://github.com/SinaMSRE/HTTPDNSLib
+
+开源的DLA框架
+https://github.com/kymjs/CJFrameForAndroid
 
 
 3、UI与view
