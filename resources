@@ -5,5 +5,28 @@ https://github.com/bboyfeiyu/android-tech-frontier
 2、JS交互的方式
 https://github.com/lzyzsd/JsBridge
 
+3、OwnCloud-SMS
+如果你像我这样依赖私有云, 那么你可能会考虑安装 OwnCloud-SMS。而不是简单的依靠你的手机来存储短信会话，你可以使用 OwnCloud-SMS 来确保你的会话可以在任何地方被得到。手机丢失或屏幕坏掉，有一百种理由让你在可能成为你的救星的私有云服务器上访问你的短信。
+https://github.com/nerzhul/ownCloud-SMS-App
+
+4、Atomic
+我这些天很少使用即时聊天工具（IRC），我根本就没有花费太多时间聊天。不过，也有几次我在路上的时候需要连接聊天室。在尝试过一些不同的客户端之后我发现 Atomic 对我来说是最好的选择。Atomic 拥有一个正常的 IRC 风格，同时如果你需要的话，其还具有改变配色方案的能力。Atomic 支持 SSL，并为 Android 手机提供一个扎实的 IRC 体验。
+https://github.com/indrora/Atomic
+
+5、Podax
+尽管我很少听我使用的播客，我还是会抽出时间给我最爱的那些。Podax 提供了简洁的界面，好用的窗口小部件，还有可靠与 gpodder.net 同步的支持。Podax 是非常简单的，在使用的过程中，我从来没有投诉过它。
+https://github.com/thasmin/Podax
+
+6、Effects Pro
+我首先需要承认在 Google Play 中关于图像处理的软件并不少。然后那儿有提出关于使用一个简单的照片滤镜需要尊少的 MIT 条款。我喜欢 Effects Pro 因为他是免费发行的，它拥有非常棒的 GUI 而且我能够在任何时间添加滤镜。你能够使用预置的滤镜或者自己选择调色板里的颜色。
+https://github.com/yaa110/Effects-Pro
+
+7、Droidgain
+还有比听一个 mp3 播放列表并发现所有歌曲都播放在不同的声级上更烦人的事情么。幸运的是，这是一个罕见的问题，但它是一个我已经不得不使用 Droidgain 来解决的一个很大的问题。Droidgain 会整理你的 mp3 文件并确保音频已经被标准化。这意味着安静的歌曲有他们自己的声级，而响亮的歌曲会与你音乐库中的其他歌曲相匹配来降低级别。
+https://github.com/beide/Droidgain
+
+
+
+
 
 
