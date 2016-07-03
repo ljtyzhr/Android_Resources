@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>这里是一个测试案例</title>
+
+	<script type="text/javascript">
+		
+		function onAlert() {
+			alert('谢谢你的点击，请关闭！')
+		}
+
+		// 这里可以进行简单的ajax请求
+		function loadXMLDoc() {
+
+			// var inputUrl = document.getElementById('inputTest').value;
+			var inputUrl = "https://api.lostg.com/music/1770361679";
+			var xmlhttp;
+
+			if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+				xmlhttp = new XMLHttpRequest();
+			} else {// code for IE6, IE5
+				xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+			}
+
+			xmlhttp.onreadystatechange=function() {
+
+				if (xmlhttp.readyState == 4) {
+					
+					if (xmlhttp.status==200 || xmlhttp.status==0) {
+
+						document.
+
+						// 这里显示原始的返回数据，为json数据
+						document.getElementById("outputJsonDiv").innerHTML=xmlhttp.responseText;
+
+						// 这里显示原始数据格式化后的数据
+						var jsonFormatData = JSON.parse(xmlhttp.responseText);
+						document.getElementById("formatAlbum").innerHTML="相册名称："+jsonFormatData.album;
+						document.getElementById("formatAlbumPic").innerHTML="相册图片："+jsonFormatData.album_pic;
+						document.getElementById("formatSinger").innerHTML="歌手名字：" + jsonFormatData.singer;
+					}
+				}
+			}
+
+			// 这里是请求的网易音乐的api接口，不过返回值错误了，可以直接通过浏览器请求
+			// 返回值错误："http://music.163.com/api/artist/albums/10557?offset=0&limit=3"
+			// 返回值正确：“https://api.lostg.com/music/1770361679”
+			xmlhttp.open("GET", inputUrl, true);
+			xmlhttp.send();
+		}
+
+	</script>
+</head>
+<body>
+
+<center>
+
+	<br><br><br><br>
+
+	<button onclick="onAlert()">弹出alert</button>
+
+	<h2>-------------------------------AJAX简单的测试用例-------------------------------</h2>
+	
+	请输入请求链接：<input type="text" id="inputTest" style="width: 600px;">
+	<br>
+	<button type="button" onclick="loadXMLDoc()">点击开始，进行请求测试数据</button>
+	<br><br>
+	<div id="outputJsonDiv"></div>
+
+	<br><br>
+
+	<h2>-------------------------------处理返回得到的json数据-------------------------------</h2>
+	<div id="formatDataDiv">
+		<div id="formatAlbum"></div>
+		<div id="formatAlbumPic"></div>
+		<div id="formatSinger"></div>
+		<div id="formatLocation">mp3音乐的具体位置？</div>
+	</div>
+
+</center>
+
+</body>
+</html>
