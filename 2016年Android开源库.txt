@@ -1,0 +1,282 @@
+Animation
+Android View Animations[1]：一个强大的 View 动画函数库，方便使用者很容易地实现各种 View 的动画效果。
+RecyclerView Animators[2]：专门为 RecyclerView 实现多种炫酷的动画
+
+APIs
+CloudRail[3]：为开发者提供多种服务的 API 快速集成，例如将多种服务例如 Dropbox，Google Drive 和 OneDrive 等封装集成为一个统一的 API 供开发者调用，同时兼容这些服务的 API 升级，CloudRail 涉及的服务主要有云存储服务，社交，支付等等。
+Retrofit[4]：由 Square 公司开源的类型安全的 REST 客户端，从本质上讲，它是将 http API 转换为 Java 接口供开发者使用。
+
+Charts
+MPAndroidChart[5]：非常强大的绘图函数库，支持八种类型的图标绘制，同时支持多种手势操作。
+AndroidCharts[6]：一个简单的绘图函数库，支持可定制的特性。
+
+Database
+SQLBrite[7]：由 Square 公司开源的以流式语法查询 SQLiteOpenHelper 和 ContentResolver 的函数库。
+Sugar ORM[8]：一个简单的 ORM 框架，开发者再也无需手写 SQL 语句。
+
+Data Structures
+Eclipse Collections[9]：最好用的 Java 集合框架。
+
+Date & Time
+TimesSquare for Android[10]：由 Square 公司开源的日期选择器独立控件。
+Material Calendar View[11]：Material Design 风格的 Android日历控件。
+
+Dependencies
+Dagger[12]：非常著名的依赖注入函数库（译者注：现在使用的话推荐Dagger2）。
+
+Files
+Android-FilePicker[13]：文件选择器的开源实现。
+Material File Picker[14]：Material design 风格的文件选择器。
+
+Functional Programing
+Retrolambda[15]：在 Java7 中实现 Lambdas 表达式方式编码。
+
+Gestures
+Sensey：可以很方便在工程中添加手势识别功能的函数库。
+Android-3DTouch-PeekView：在 Android 上模拟 iOS 平台 3D Touch 功能的函数库。
+
+
+Bluetooth
+Android-BluetoothSPPLibrary[16]：一个蓝牙串行协议封装函数库，方便的实现功能。
+RxAndroidBle[17]：基于 RxJava 基础上实现的低功耗蓝牙操作函数库。
+
+Camera
+CameraFilter[18]：使用 OpenGL shaders 实现的实时照相机滤色镜。
+Material Camera[19]：Material Design 风格的视频录制器。
+
+Location
+ReactiveLocation[20]：非常强大有用的 Google Play API 封装函数库，用于获取定位信息，基于 RxJava。
+Smart Location Library[21]：另一个方便操作 Android 定位 API 的函数库。
+
+Layout
+Android Swipe Layout[22]：非常强大的滑动布局函数库，例如支持滑动删除等布局。
+FlexboxLayout[23]：将 CSS 中的 Flexbox 布局引入 Android 开发中的一个函数库，由 Google 出品。
+
+Logging
+Logger[24]：简单但非常出名的一个日志记录函数库。
+Hugo[25]：基于注解实现的日志记录函数库，由 JakeWharton 大神出品。
+
+Maps
+AirMapView[26]：Google Maps API 中的 View 抽象封装的函数库。
+android-maps-utils[27]：另一个对 Google Maps Android API 封装的函数库，例如标记聚类，热力图等。
+
+Audio
+Music Player[28]：一个完整的音乐播放器实现，带有炫酷的 UI 效果。
+RxAndroidAudio[29]：Android Audio 的封装函数库。
+
+
+GIF
+android-gif-drawable[30]：支持在 View 和 Drawable 上面显示 GIF 图片。
+GifView[31]：另外一个支持在 View 上面显示 GIF 图片的函数库。
+
+
+Image
+uCrop[32]：一个功能强大的图片裁剪函数库。
+Glide[33]：著名的图片显示缓存函数库。
+
+
+Video
+VideoPlayerManager[34]：一个 Android MediaPlayer 的封装函数库，便于和 ListView，RecyclerView 协作。
+Easy Video Player[35]：一个封装好的视频播放视图。
+
+
+Messaging
+Chateau[36]：一个提供聊天功能的框架。
+
+
+Networking
+OkHttp[37]：Android 平台最佳的一个网络请求函数库
+AndroidAsync[38]：一个偏底层的网络协议函数库，基于 nio 实现。
+
+
+Push 
+Notifications
+PubNub[39]：一个商业的 SDK，用于处理 Push 通知
+Gandalf[40]：以对话框的形式提醒用户有更新等操作。
+
+
+Payments
+Android In-App Billing v3 Library[41]：基于 Android v3 API 实现的应用内支付函数库。
+Checkout[42]：另一个 Android 应用内支付函数库。
+
+
+Security
+Sodium[43]：提供了通用的加密，解密，签名和哈希算法的函数库。
+PiracyChecker[44]：使用 Googles LVL 和 APK 签名保护等技术来防止 APP 被破解和盗版的函数库。
+
+
+Text
+Ticker[45]：支持内容滚动的 TextView 实现。
+MaterialEditText[46]：Material Design 风格的 EditText。
+
+
+Font
+fontbinding[47]：使用 data binding 实现在 xml 中使用自定义字体的函数库。
+Calligraphy[48]：方便在 Android 中使用自定义字体的函数库。
+
+
+User Interface
+Material Design Android Library[49]：实现在 Android 2.2 版本中使用 Material Design 功能的函数库。
+Material[50]：同样的，在低版本 Android 系统中实现 Material Design 功能的函数库。
+
+
+Activity Indicator
+AppIntro[51]：实现类似 Google apps 的应用启动引导页。
+LolliPin[52]：Material Design 风格的 Pin 码输入界面。
+
+
+Buttons
+Android-Bootstrap[53]：Bootstrap 风格的按钮实现。
+Android Morphing Button[54]：实现按钮间自由变换的功能。
+
+
+Form
+Vertical Stepper Form Library[55]：Material Design 风格的垂直方向进度器。
+
+Keyboard
+KeyboardVisibilityEvent[56]：用于处理软键盘可见性变化事件通知的函数库。
+AndroidKeyboardWatcher[57]：另外一个用于处理软键盘打开关闭监听器的函数库。
+
+
+Menu
+BottomBar[58]：Material Design 风格的底部导航栏。
+Side Menu[59]：Yalantis 出品的侧边栏实现。
+
+
+Rating
+Android-Rate[60]：定期提醒用户到应用市场给 APP 打分的函数库。
+SimpleRatingBar[61]：一个用于替换系统提供的评分控件的函数库。
+
+
+Slider
+SlidingMenu[62]：Android 侧滑菜单的实现。
+MaterialDrawer[63]：Material Design 风格的侧边抽屉实现。
+
+
+[1]:https://github.com/daimajia/AndroidViewAnimations
+
+[2]:https://github.com/wasabeef/recyclerview-animators
+
+[3]:https://cloudrail.com/
+
+[4]:http://square.github.io/retrofit
+
+[5]:https://github.com/PhilJay/MPAndroidChart
+
+[6]:https://github.com/HackPlan/AndroidCharts
+
+[7]:https://github.com/square/sqlbrite
+
+[8]:https://github.com/satyan/sugar
+
+[9]:https://www.eclipse.org/collections/
+
+[10]:https://github.com/square/android-times-square
+
+[11]:https://github.com/prolificinteractive/material-calendarview
+
+[12]:https://github.com/square/dagger
+
+[13]:https://github.com/DroidNinja/Android-FilePicker
+
+[14]:https://github.com/nbsp-team/MaterialFilePicker
+
+[15]:https://github.com/orfjackal/retrolambda
+
+[16]:https://github.com/akexorcist/Android-BluetoothSPPLibrary
+
+[17]:https://github.com/Polidea/RxAndroidBle
+
+[18]:https://github.com/nekocode/CameraFilter
+
+[19]:https://github.com/afollestad/material-camera
+
+[20]:https://github.com/mcharmas/Android-ReactiveLocation
+
+[21]:https://github.com/mrmans0n/smart-location-lib
+
+[22]:https://github.com/daimajia/AndroidSwipeLayout
+
+[23]:https://github.com/google/flexbox-layout
+
+[24]:https://github.com/orhanobut/logger
+
+[25]:https://github.com/JakeWharton/hugo
+
+[26]:https://github.com/airbnb/AirMapView
+
+[27]:https://github.com/googlemaps/android-maps-utils
+
+[28]:https://github.com/andremion/Music-Player
+
+[29]:https://github.com/Piasy/RxAndroidAudio
+
+[30]:https://github.com/koral--/android-gif-drawable
+
+[31]:https://github.com/Cutta/GifView
+
+[32]:https://github.com/Yalantis/uCrop
+
+[33]:https://github.com/bumptech/glide
+
+[34]:https://github.com/danylovolokh/VideoPlayerManager
+
+[35]:https://github.com/afollestad/easy-video-player
+
+[36]:https://github.com/badoo/Chateau
+
+[37]:https://github.com/square/okhttp
+
+[38]:https://github.com/koush/AndroidAsync 
+
+[39]:https://github.com/pubnub/java
+
+[40]:https://github.com/btkelly/gandalf
+
+[41]:https://github.com/anjlab/android-inapp-billing-v3
+
+[42]:https://github.com/serso/android-checkout
+
+[43]:https://github.com/jedisct1/libsodium
+
+[44]:https://github.com/javiersantos/PiracyChecker
+
+[45]:https://github.com/robinhood/ticker
+
+[46]:https://github.com/rengwuxian/MaterialEditText
+
+[47]:https://github.com/lisawray/fontbinding 
+
+[48]:https://github.com/chrisjenx/Calligraphy 
+
+[49]:https://github.com/navasmdc/MaterialDesignLibrary
+
+[50]:https://github.com/rey5137/Material
+
+[51]:https://github.com/PaoloRotolo/AppIntro 
+
+[52]:https://github.com/OrangeGangsters/LolliPin
+
+[53]:https://github.com/Bearded-Hen/Android-Bootstrap
+
+[54]:https://github.com/dmytrodanylyk/android-morphing-button
+
+[55]:https://github.com/ernestoyaquello/vertical-stepper-form
+
+[56]:https://github.com/yshrsmz/KeyboardVisibilityEvent
+
+[57]:https://github.com/AzimoLabs/AndroidKeyboardWatcher
+
+[58]:https://github.com/roughike/BottomBar
+
+[59]:https://github.com/Yalantis/Side-Menu.Android
+
+[60]:https://github.com/hotchemi/Android-Rate
+
+[61]:https://github.com/FlyingPumba/SimpleRatingBar
+
+[62]:https://github.com/jfeinstein10/SlidingMenu
+
+[63]:https://github.com/mikepenz/MaterialDrawer
+
+
